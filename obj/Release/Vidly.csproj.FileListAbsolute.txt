@@ -148,3 +148,5 @@ C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Release\Vidly.Mig
 C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Release\Vidly.Migrations.AddLicenceToUser.resources
 C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Release\Vidly.Migrations.AddPhoneNumberToUserProfile.resources
 C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Release\Vidly.csproj.GenerateResource.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Release\Vidly.Migrations.RentalModel.resources
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Release\Vidly.Migrations.NumberOfMoviesAvailable.resources
