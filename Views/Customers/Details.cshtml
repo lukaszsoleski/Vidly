@@ -1,0 +1,49 @@
+﻿@model Vidly.Models.Customer
+
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer</h2>
+
+@if (Model == null) {<p>Customer with this id doesn't exist.</p>}
+else {
+                     <div>
+                         <h4> @Model.Name </h4>
+
+                         <div class="table-responsive">
+
+                             <table class="table table-bordered">
+
+                                 
+
+                                     <tr>
+
+                                         <td>Membership type</td>
+
+                                         <td>@Model.MembershipType.Name</td>
+
+
+                                     </tr>
+                                     @if(Model.Birthday != null) { 
+                                     <tr>
+
+                                         <td>Birthday</td>
+
+                                         <td>@Model.Birthday.Value.ToShortDateString()</td>
+
+                                     </tr>
+                                     }
+
+                                 
+
+                             </table>
+
+                         </div>
+
+
+
+
+                     </div>
+}
