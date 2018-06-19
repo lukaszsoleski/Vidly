@@ -1,6 +1,9 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: "Poppins";
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -32,4 +35,3 @@ textarea {
 .input-validation-error, input.error {
     border: 2px solid red;
 }
-

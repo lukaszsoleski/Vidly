@@ -148,3 +148,5 @@ C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\bin\Glimpse.AspNet.dl
 C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\bin\Glimpse.Core.dll
 C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\bin\Glimpse.EF6.dll
 C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\bin\Glimpse.Mvc5.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Debug\Vidly.Migrations.RentalModel.resources
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Vidly\obj\Debug\Vidly.Migrations.NumberOfMoviesAvailable.resources

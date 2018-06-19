@@ -1,31 +1,100 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+@{
+    Layout = null;
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!DOCTYPE html>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cinema Paradise - Home</title>
+
+    @Styles.Render("~/Content/css/landing-page")
+    @Styles.Render("~/Content/css")
+
+
+</head>
+<body>
+    @Html.Partial("_NavBar")
+
+    <!-- Put your page content here! -->
+
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                Rent New Films & TV Series on DVD & Blu-Ray
+
+            </span>
+        </div>
+
+    </div>
+    <section class="section section-light">
+        <h2>On the hunt for the best place to rent movies online?</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            You’ve come to the right spot. After all, we love films as much as you do.
+
+            Cinema Paradise makes it easy to buy or rent movies online, wherever you are, whenever you like. With over 90,000 films available at your fingertips, this is your one-stop shop for online movie rentals.
+
+            Choose a plan based on the number of online DVD rentals you’d like to make each month, at any one time. It really is up to you. DVD rentals online has never been easier!
+
+            Take a peek at our extensive catalogue and find the perfect film - or the one you never quite managed to watch. From Action & Adventure to Classics and Comedy, you’re sure to find the ideal title for you, your family and friends.
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+
+
+    </section>
+
+    <div class="pimg2">
+        <div class="ptext">
+            <span>
+
+            </span>
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <section class="section section-dark center">
+        <h2>How it works</h2>
+        <p>Whether for a family member, friend, colleague, or loved one, the  film subscription service is perfect to share.</p>
+
+        <img class="responsive" src="~/Content/img/HowItWorks.jpg">
+    </section>
+
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">
+                Our subscribers love us <br />
+                ... i would like to say that your service is second-to-none, highly efficient, reliable and i will be recommending it to anyone. Thank you for great service and many hours of viewing ...
+                Simon from Dagenham
+
+            </span>
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    <section class="section section-dark">
+        <h2>Blu-ray Rental & DVD Rental</h2>
+        <p>It's easy to rent films from us on DVD and Blu-ray discs by post. If you live in the UK you can have the latest new releases delivered straight to your doorstep via our Online DVD Rental service. Return postage is free, there are no fees for returning your discs late, and you're under no other obligation. Simply keep your DVD rentals until you're finished with them, then pop them back in the post to us. You'll then be sent more discs from your DVD rental queue. It's simple!</p>
+
+    </section>
+
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                New Movie & Film Releases to Rent
+            </span>
+        </div>
+
     </div>
-</div>
+
+
+</body>
+
+
+@Scripts.Render("~/bundles/lib")
+
+
+
+</html>
+
